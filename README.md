@@ -113,3 +113,5 @@ generate new key values for GUIDs, but not integers, so it's best to submit in
 this case. Keeping track of distributed integers is basically as hard as setting
 up geo distributed multi-master replication which is what we're trying to avoid
 in the first place.
+
+https://github.com/aspnet/EntityFrameworkCore/issues/14836

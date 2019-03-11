@@ -68,7 +68,7 @@ namespace cosmos_db_exploration
         public DbSet<Trip> Trips { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseCosmosSql("https://localhost:8081", primaryKey, nameof(cosmos_db_exploration));
+            optionsBuilder.UseCosmos("https://localhost:8081", primaryKey, nameof(cosmos_db_exploration));
         }
     }
     public class User

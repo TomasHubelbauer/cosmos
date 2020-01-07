@@ -1,5 +1,7 @@
 # CosmosDB Exploration
 
+[**WEB**](https://tomashubelbauer.github.io/cosmos-db-exploration)
+
 In this epository I explore the use of CosmosDB. I am researching this as an
 alternative to trying to put together a geo replicated multi-master SQL Server
 replication. CosmosDB puts forth an appealing offer with a global distributed
